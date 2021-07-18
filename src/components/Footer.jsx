@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 const Footer = () => {
     return (
         <>
-            <div className="main-footer mt-2">
+            <div className="main-footer mt-4">
                 <div className="container">
                     <div className="row">
                         
@@ -13,7 +13,7 @@ const Footer = () => {
                             <img className="logo-footer " src="green_app_icon.svg" alt="logo.." />
                         </div>
                         {/* column 2 */}
-                        <div className="col-md-3 col-sm- my-2">
+                        <div className="col-md-2 col-sm- my-2">
                             <h4>The Basics</h4>
                             <ul className="list-unstyled">
                                 <li>support forums</li>
@@ -23,7 +23,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         {/* column 3 */}
-                        <div className="col-md-3 col-sm- my-2">
+                        <div className="col-md-2 col-sm- my-2">
                             <h4>Get Involved</h4>
                             <ul className="list-unstyled">
                                 <li>Add New Movie</li>
@@ -41,8 +41,9 @@ const Footer = () => {
                                 <li>facebook</li>
                             </ul>
                         </div>
-                        <div className="  col-md-1 col-sm">
-                            <Link to="navbar" >< IoIosArrowUp style={{color:"white" ,fontSize:"3rem"}}/></Link>
+                        <div className="  col-md-3 col-sm">
+                            <Link to="navbar" >< IoIosArrowUp style={{color:"white" ,fontSize:"2rem"}}/></Link>
+                            <h6>Back to Top</h6>
                         </div>
                     </div>
                     {/* footer bottom */}

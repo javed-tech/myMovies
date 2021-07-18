@@ -1,25 +1,27 @@
 import React from "react";
-import {useState} from 'react'
+import { useState } from 'react'
 function Contact() {
-    const [data, setData]= useState({
-        fullname :"",
-        mobile:"",
-        email:"",
-        msg:""
+    const [data, setData] = useState({
+        fullname: "",
+        mobile: "",
+        email: "",
+        msg: ""
     });
-    const formsubmit =(e)=>{
+    const formsubmit = (e) => {
         e.preventDefault();
-        alert(`     My Name is ${data.fullname}
+        alert(` 
+               ThankYou For Contacting US!
+               My Name is ${data.fullname}
                Mobile number is ${data.mobile}
                Email Id is ${data.email}
                Message :> ${data.msg}`)
     }
-    const InputEvent=(event)=>{
-        const{name,value}= event.target
-        setData((preval)=>{
+    const InputEvent = (event) => {
+        const { name, value } = event.target
+        setData((preval) => {
             return {
                 ...preval,
-                [name]:value
+                [name]: value
 
             }
         })
