@@ -9,7 +9,7 @@
   --primay-maindark:#181616;
 }
 body{
-  background-color: #22254b;
+/*   background-color: #22254b; */
   color: var(--primary-white);
   font-family: "poppins", sans-serif;
   font-family: 'Roboto', sans-serif;
